@@ -6,7 +6,7 @@ class Calculator :
         self.years = years
         self.year_loss = year_loss / 100
 
-
+# version 3
     def add_car(self, car):
         year_cost = car.year_cost(self.mileage)
         price_per_year = car.price / self.years
